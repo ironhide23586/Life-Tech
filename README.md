@@ -2,13 +2,13 @@
 
 project page at https://devpost.com/software/lifetech
 
-# Sample UI -
+## Sample UI -
 ![alt text](https://github.com/ironhide23586/Life-Tech/blob/master/HeartbeatML/gallery/UI.jpg)
  
- Hardware sample snap -
+## Hardware sample snap -
  ![alt text](https://github.com/ironhide23586/Life-Tech/blob/master/HeartbeatML/gallery/hardware.jpg)
  
- Performance statistics -
+## Performance statistics -
  ![alt text](https://github.com/ironhide23586/Life-Tech/blob/master/HeartbeatML/gallery/stats.jpg)
 
 The ESP 8266 is reading the data from the heartbeat sensor and is connected to wifi. It then pushes this data to the Amazon Web Service which has a RDS instance up and running with a MySql already setup on it. We store the data on this mysql database and we use flask to publish this data on the server that runs an ubuntu image. 
